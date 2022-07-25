@@ -1,0 +1,100 @@
+body{
+	margin:0px;
+}
+.header{
+	background-color:#0a2d42;
+	height:100px;
+	width:100%;
+	position:fixed;
+	left:0px;
+	right:0px;
+z-index:100;
+	
+}
+.logo{
+	height:100%;
+	text-align:center;
+	margin:10px;
+	float:left;
+	
+	
+	}
+.logo-text{
+	display:block;
+	font-family:"Helvetica";
+	font-weight:bold;
+	color:white;
+}
+.nav{
+	float:right;
+	height:100%;
+	position:relative;
+	width:30%;
+	
+	
+
+}
+.nav a{
+	float:right;
+	color:white;
+	font-size:15px;
+	font-weight:700;
+	font-family:"Helvetica";
+	padding-right:20px;
+	padding-top:12%;
+	display:inline-block;
+	
+}	
+.site{
+	position:absolute;
+	top:78px;
+	width:100%;
+
+}
+.image-content{
+	background-image:url("background-image.jpg");
+	height:700px;
+	width:100%;
+	
+
+}
+.quote{
+	color:white;
+	font-family:"Helvetica";
+	position:relative;
+	top:10%;
+	text-align:center;
+
+}
+.card-list{
+	width:100%;
+
+
+}
+#product{
+text-align:center;
+}
+.card{
+width:22%;
+padding:1.5%;
+float:left;
+text-align:center;
+}
+.card img{
+width:100%;
+border:4px solid red;
+}
+.order{
+width:100%;
+}
+#order{
+text-align:center;
+}
+.form{
+width:200px;
+margin:0px auto;
+}
+.form input{
+padding:10px;
+margin:10px;
+}
